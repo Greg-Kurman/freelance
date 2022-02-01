@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;700;900&display=swap&subset=cyrillic-ext');
+
+
+.header__content{
+    max-width: 1032px;
+    margin: 0 auto;
+}
+.container {
+    margin: 0 auto;
+    max-width: 856px;
+}
+
+.menu__list{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    height: 82px;
+    align-items: center;
+}
+
+.menu__link{
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    font-family: Heebo;
+    
+}
+
+.menu__link:hover{
+    transition: color 0.3s ease 0s;
+    color: #FF6464;
+}
+
+.hello__container {
+    display: flex;
+}
+
+.hello__content{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.hello__avatar img{
+    border-radius: 50%;
+    width: 243px;
+    height: 243px;
+}
+
+.hello__text {
+    padding: 50px 0;
+}
+
+.btn {
+    display: inline-flex;
+    background: #FF6464;
+    align-items: center;
+    justify-content: center;
+    height: 47px;
+    width: 208px;
+    left: 148px;
+    top: 477px;
+    border-radius: 2px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Heebo;
+    font-weight: 500;
+
+
+}
